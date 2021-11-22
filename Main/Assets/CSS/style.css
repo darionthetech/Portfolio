@@ -2,19 +2,32 @@
     box-sizing: border-box;
     }
 
+@font-face {
+    font-family: 'atariClassic';
+    src: url(../fonts/AtariClassicChunky.ttf);
+    font-style: normal;
+    font-weight: 100;
+    }
+
+@font-face {
+    font-family: 'atariClassicSmooth';
+    src: url(../fonts/AtariClassicExtrasmooth.ttf);
+    font-style: normal;
+    font-weight: 100;
+}    
+
   /* brand color palette */
     :root {
     --primary: rgb(41, 32, 40);
     --secondary: rgb(22, 21, 18);
-    --tertiary: rgb(216, 150, 44);
+    --tertiary: rgb(241, 239, 235);
     --dark: rgb(38, 51, 43);
-    --light: rgb(238, 208, 161);
+    --light: rgb(240, 234, 224);
 }
 
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: var(--primary);
     background-color: var(--light);
     line-height: 1.5;
@@ -49,6 +62,8 @@ color: var(--tertiary);
 background-color: var(--secondary);
 padding: 5px 1% 5px 6%;
 margin: 0;
+font-family: 'atariclassic';
+font-weight: 100;
 font-size: 4vw;
 line-height: 1;
 }
@@ -88,7 +103,7 @@ main {
 
 .hero-banner {
     background: rgb(68, 88, 120);
-    background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+    background-image: url("../images/legos.jpg");
     background-size: cover;
     background-position: center;
     background-blend-mode: soft-light;
@@ -110,6 +125,7 @@ main {
     color: var(--tertiary);
     margin: 0;
     padding: 5px 10px;
+    font-family: 'atariClassic';
     font-size: 2.3rem;
     line-height: 1.2;
     display: inline;
@@ -146,6 +162,7 @@ main {
 
 .page-section p {
     margin-bottom: 20px;
+    font-family: 'atariClassicSmooth';
 }
 
 .flex-container {
@@ -179,7 +196,7 @@ main {
 }
 
 .flex-item:hover {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(93, 184, 138, 0.3);
 }
 
 .flex-item div {
