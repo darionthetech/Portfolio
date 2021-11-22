@@ -16,7 +16,7 @@
     font-weight: 100;
 }    
 
-  /* brand color palette */
+  /* colors */
     :root {
     --primary: rgb(41, 32, 40);
     --secondary: rgb(22, 21, 18);
@@ -54,7 +54,6 @@ header {
     flex-wrap: wrap;
     align-items: center;
     background-color: var(--tertiary);
-    box-shadow: 0 5px 35px rgba(146, 204, 206, 0.4);
 }
 
 header h1 {
@@ -72,6 +71,7 @@ nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    font-family: 'atariClassicSmooth';
 }
 
 nav a {
