@@ -58,10 +58,10 @@ header {
 
 header h1 {
 color: var(--tertiary);
-background-color: var(--secondary);
 padding: 5px 1% 5px 6%;
 margin: 0;
 font-family: 'atariclassic';
+color:rgb(22, 21, 18);
 font-weight: 100;
 font-size: 4vw;
 line-height: 1;
@@ -89,7 +89,7 @@ nav a {
 
 nav a:hover {
     background-size: 100% 100%;
-    color: var(--primary);
+    color: var(--light);
 }
 
 nav a:last-child {
@@ -152,7 +152,8 @@ main {
     text-align: right;
     padding-right: 15px;
     border-right: 4px solid var(--primary);
-    font-size: 4vw;
+    font-family: 'atariClassic';
+    font-size: 2vw;
     line-height: 1.1;
 }
 
@@ -189,7 +190,7 @@ main {
     font-size: 0.9rem;
 }
 
-  /* feature first portfolio item */
+  /* feature first item */
 .flex-item:first-child {
     min-height: 400px;
     flex-basis: 100%;
@@ -205,6 +206,7 @@ main {
 }
 
 .flex-item h3 {
+    font-family: "atariclassic";
     font-size: 1.6rem;
 }
 
@@ -214,10 +216,11 @@ main {
     justify-content: space-around;
     align-items: center;
     height: 100%;
+    font-family: "atariClassic";
 }
 
 .contact address a {
-    color: var(--tertiary);
+    color: var(--dark);
     padding: 5px;
     text-decoration: none;
     font-size: 1.3rem;
@@ -233,7 +236,7 @@ main {
 
 .contact address a:hover {
     background-size: 100% 88%;
-    color: var(--secondary);
+    color: var(--light);
 }
 
   /* portfolio project images */
@@ -305,10 +308,5 @@ main {
     .hero-banner {
     justify-content: center;
     text-align: center;
-    }
-
-    .contact address {
-    flex-direction: column;
-    align-items: flex-start;
     }
 }
