@@ -2,10 +2,10 @@
     "name": "win98",
     "version": "1.0.0",
     "description": "Portfolio",
-    "main": "home.html",
+    "main": "index.html",
     "scripts": {
-        "start": "parcel home.html --open",
-        "build": "parcel build home.html"
+        "start": "parcel index.html --open",
+        "build": "parcel build index.html"
     },
     "dependencies": {},
     "devDependencies": {
