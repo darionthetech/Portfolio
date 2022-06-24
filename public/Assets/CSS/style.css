@@ -60,7 +60,7 @@ header h1 {
 color: var(--tertiary);
 padding: 5px 1% 5px 6%;
 margin: 0;
-font-family: 'atariclassic';
+font-family: 'atariClassic';
 color:rgb(22, 21, 18);
 font-weight: 100;
 font-size: 4vw;
@@ -239,7 +239,7 @@ main {
     color: var(--light);
 }
 
-  /* portfolio project images */
+  /* portfolio project images 
 .run-buddy {
     background-image: url("../images/02-run-buddy.jpg");
 }
@@ -260,7 +260,7 @@ main {
     background-image: url("../images/02-portfolio-4.jpg");
 }
 
-  /* end portfolio project images */
+   end portfolio project images */
 
 @media screen and (max-width: 980px) {
     header {
